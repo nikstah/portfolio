@@ -34,6 +34,7 @@ function App() {
                 </div>
                 <div className="project-image-frame">
                   <img className="project-image" src={project.imgUrl} alt="Copyright Cozify Oy"></img>
+                  <div className="project-image-text">{project.imgText}</div>
                 </div>
               </div>
             </div>

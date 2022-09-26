@@ -6,7 +6,8 @@ const Projects = [
       tech: "#javascript #vue #vuex #oauth #figma",
       role: "Development & UX design",
       year: "2021-2022",
-      imgUrl: "images/dashboard.png"
+      imgUrl: "images/dashboard.png",
+      imgText: "Illustration: Trinh Minimal"
     },
     {
       id: "3",
@@ -15,7 +16,8 @@ const Projects = [
       tech: "#react #web #mobile",
       role: "Studied Complete React Developer in 2022 w/ Redux, Hooks and GraphQL (Udemy)",
       year: "2022",
-      imgUrl: "images/crown-clothing.png"
+      imgUrl: "images/crown-clothing.png",
+      imgText: ""
     },
     {
       id: "4",
@@ -24,7 +26,8 @@ const Projects = [
       tech: "#electronics #mechanics #radio #python #embedded #industrial #sourcing",
       role: "Project Lead",
       year: "2019-2020",
-      imgUrl: "images/siteThumbnail_index2021.webp"
+      imgUrl: "images/cozifyhub.png",
+      imgText: "Photo: Cozify"
       },
     {
       id: "5",
@@ -33,7 +36,8 @@ const Projects = [
       tech: "#web #react #analytics",
       role: "Design & development",
       year: "2022",
-      imgUrl: "images/property.png"
+      imgUrl: "images/property.png",
+      imgText: ""
     }
     ]
 

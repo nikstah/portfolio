@@ -48,11 +48,23 @@ p {
   display: flex;
   align-items: right;
   justify-content: right;
+
+  position: relative;
+  text-align: center;
+  color: lightgray;
+  font-size: small;
 }
 
 .project-image {
   border-radius: 5px;
-  width: 300px;
+  width: 324px;
+  height: 240px;
+}
+
+.project-image-text {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
 }
 
 .footer-div {
