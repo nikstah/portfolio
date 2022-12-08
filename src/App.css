@@ -16,6 +16,10 @@ h1 {
   font-weight: 300;
 }
 
+a {
+  color: black;  
+}
+
 p {
   font-size: 13px;
 }

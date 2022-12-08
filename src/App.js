@@ -27,13 +27,18 @@ function App() {
             <div className="round-box" key={project.id}>
               <div className='grid-container'>
                 <div>
-                <h3>{project.title}</h3>
+                <h3>
+                  {project.link 
+                    ? <a href={project.link} target="_blank" rel="noreferrer">{project.title}</a>
+                    : <>{project.title}</>
+                  }
+                </h3>
                 <p>{project.description}</p>
                 <p>Technologies: {project.tech}</p>
                 <p>Role: {project.role}, {project.year}</p>
                 </div>
                 <div className="project-image-frame">
-                  <img className="project-image" src={project.imgUrl} alt="Copyright Cozify Oy"></img>
+                  <img className="project-image" src={project.imgUrl} alt={project.altText}></img>
                   <div className="project-image-text">{project.imgText}</div>
                 </div>
               </div>

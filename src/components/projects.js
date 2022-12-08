@@ -1,5 +1,16 @@
 const Projects = [
     {
+      id: "1",
+      title: "Asteroids",
+      description: "This Web App fetches asteroid data from NASA API, and renders those asteroids in 3D.",
+      tech: "#javascript #react #react_query #three.js #react_three_fiber",
+      role: "Design & development",
+      year: "2022",
+      imgUrl: "images/asteroids.png",
+      imgText: "",
+      link: "https://niken-asteroidit.netlify.app"
+   },
+    {
       id: "2",
       title: "Residential Portal",
       description: "This web dashboard provides tools for management and residents to view and manage conditions (e.g. temperature and humidity) and smart devices (e.g. sensors and meters) in apartments and office spaces. I designed and developed features for user management, authentication and future versions of device management.",
@@ -27,7 +38,8 @@ const Projects = [
       role: "Project Lead",
       year: "2019-2020",
       imgUrl: "images/cozifyhub.png",
-      imgText: "Photo: Cozify"
+      imgText: "Photo: Cozify",
+      altText: "Copyright Cozify Oy"
       },
     {
       id: "5",
